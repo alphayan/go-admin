@@ -2,7 +2,8 @@ package models
 
 import (
 	"errors"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
+
+	"github.com/alphayan/go-admin-core/sdk/pkg"
 
 	"gorm.io/gorm"
 

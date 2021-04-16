@@ -3,8 +3,8 @@ package dto
 import (
 	"time"
 
+	"github.com/alphayan/go-admin-core/sdk/api"
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
 
 	"go-admin/app/admin/models/system"
 	"go-admin/common/dto"

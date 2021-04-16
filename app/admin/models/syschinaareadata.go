@@ -7,8 +7,8 @@ import (
 type SysChinaAreaData struct {
 	models.Model
 
-	PId        string    `json:"pId" gorm:"type:int(11);comment:上级编码"`
-	Name       string    `json:"name" gorm:"type:varchar(128);comment:名称"`
+	PId  string `json:"pId" gorm:"type:int(11);comment:上级编码"`
+	Name string `json:"name" gorm:"type:varchar(128);comment:名称"`
 	models.ControlBy
 	models.ModelTime
 }

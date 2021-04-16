@@ -3,11 +3,11 @@ package middleware
 import (
 	"net/http"
 
+	"github.com/alphayan/go-admin-core/sdk"
+	"github.com/alphayan/go-admin-core/sdk/api"
+	"github.com/alphayan/go-admin-core/sdk/pkg/jwtauth"
+	"github.com/alphayan/go-admin-core/sdk/pkg/response"
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 )
 
 //权限检查中间件

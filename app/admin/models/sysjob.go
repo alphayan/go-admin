@@ -2,8 +2,9 @@ package models
 
 import (
 	"go-admin/common/models"
-	"gorm.io/gorm"
 	"strconv"
+
+	"gorm.io/gorm"
 )
 
 type SysJob struct {

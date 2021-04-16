@@ -3,15 +3,15 @@ package handler
 import (
 	"net/http"
 
+	"github.com/alphayan/go-admin-core/sdk"
+	"github.com/alphayan/go-admin-core/sdk/api"
+	"github.com/alphayan/go-admin-core/sdk/config"
+	"github.com/alphayan/go-admin-core/sdk/pkg"
+	"github.com/alphayan/go-admin-core/sdk/pkg/captcha"
+	jwt "github.com/alphayan/go-admin-core/sdk/pkg/jwtauth"
+	"github.com/alphayan/go-admin-core/sdk/pkg/jwtauth/user"
+	"github.com/alphayan/go-admin-core/sdk/pkg/response"
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/captcha"
-	jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 	"github.com/mssola/user_agent"
 
 	"go-admin/app/admin/models/system"

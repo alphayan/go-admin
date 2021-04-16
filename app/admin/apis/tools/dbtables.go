@@ -4,10 +4,10 @@ import (
 	"errors"
 	"net/http"
 
+	"github.com/alphayan/go-admin-core/sdk/config"
+	"github.com/alphayan/go-admin-core/sdk/pkg"
+	_ "github.com/alphayan/go-admin-core/sdk/pkg/response"
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	_ "github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 
 	"go-admin/app/admin/models/tools"
 )

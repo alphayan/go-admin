@@ -3,9 +3,9 @@ package router
 import (
 	"mime"
 
+	jwt "github.com/alphayan/go-admin-core/sdk/pkg/jwtauth"
+	"github.com/alphayan/go-admin-core/sdk/pkg/ws"
 	"github.com/gin-gonic/gin"
-	jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/ws"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 

@@ -2,6 +2,7 @@ package system
 
 import (
 	"go-admin/common/models"
+
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )

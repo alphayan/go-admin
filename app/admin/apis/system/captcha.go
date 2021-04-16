@@ -1,9 +1,10 @@
 package system
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/captcha"
 	"go-admin/common/apis"
+
+	"github.com/alphayan/go-admin-core/sdk/pkg/captcha"
+	"github.com/gin-gonic/gin"
 )
 
 type System struct {

@@ -1,8 +1,9 @@
 package file_store
 
 import (
-	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 	"log"
+
+	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 )
 
 type ALiYunOSS struct {

@@ -3,8 +3,8 @@ package sys_config
 import (
 	"net/http"
 
+	"github.com/alphayan/go-admin-core/sdk/pkg/jwtauth/user"
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth/user"
 
 	"go-admin/app/admin/models/system"
 	"go-admin/app/admin/service"

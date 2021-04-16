@@ -3,11 +3,12 @@ package sys_job
 import (
 	"net/http"
 
-	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk"
 	"go-admin/app/admin/service"
 	"go-admin/common/apis"
 	"go-admin/common/dto"
+
+	"github.com/alphayan/go-admin-core/sdk"
+	"github.com/gin-gonic/gin"
 )
 
 type SysJob struct {

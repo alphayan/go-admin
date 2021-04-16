@@ -3,12 +3,12 @@ package router
 import (
 	"os"
 
+	log "github.com/alphayan/go-admin-core/logger"
+	"github.com/alphayan/go-admin-core/sdk"
+	"github.com/alphayan/go-admin-core/sdk/api"
+	"github.com/alphayan/go-admin-core/sdk/config"
+	"github.com/alphayan/go-admin-core/sdk/pkg"
 	"github.com/gin-gonic/gin"
-	log "github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/sdk"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
 
 	common "go-admin/common/middleware"
 	"go-admin/common/middleware/handler"

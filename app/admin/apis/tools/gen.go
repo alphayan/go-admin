@@ -7,10 +7,10 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/alphayan/go-admin-core/sdk/api"
+	"github.com/alphayan/go-admin-core/sdk/config"
+	"github.com/alphayan/go-admin-core/sdk/pkg"
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
 
 	"go-admin/app/admin/models"
 	"go-admin/app/admin/models/tools"

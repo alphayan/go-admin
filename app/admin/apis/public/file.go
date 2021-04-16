@@ -7,9 +7,9 @@ import (
 	"io/ioutil"
 	"strings"
 
+	"github.com/alphayan/go-admin-core/sdk/pkg"
+	"github.com/alphayan/go-admin-core/sdk/pkg/utils"
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/utils"
 	"github.com/google/uuid"
 
 	"go-admin/common/apis"

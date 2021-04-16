@@ -3,10 +3,11 @@ package dto
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-admin-team/go-admin-core/sdk/api"
 	"go-admin/app/admin/models/system"
 	"go-admin/common/dto"
 	common "go-admin/common/models"
+
+	"github.com/alphayan/go-admin-core/sdk/api"
 )
 
 type SysDictTypeSearch struct {

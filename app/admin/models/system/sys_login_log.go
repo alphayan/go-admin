@@ -5,9 +5,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/go-admin-team/go-admin-core/cache"
-	log "github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/sdk"
+	"github.com/alphayan/go-admin-core/cache"
+	log "github.com/alphayan/go-admin-core/logger"
+	"github.com/alphayan/go-admin-core/sdk"
 
 	"go-admin/common/models"
 )

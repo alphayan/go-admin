@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/go-admin-team/go-admin-core/config/source/file"
+	"github.com/alphayan/go-admin-core/config/source/file"
 	"github.com/spf13/cobra"
 
-	"github.com/go-admin-team/go-admin-core/sdk/config"
+	"github.com/alphayan/go-admin-core/sdk/config"
 )
 
 var (

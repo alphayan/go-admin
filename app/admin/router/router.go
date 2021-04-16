@@ -1,10 +1,10 @@
 package router
 
 import (
+	"github.com/alphayan/go-admin-core/sdk/pkg/jwtauth"
+	jwt "github.com/alphayan/go-admin-core/sdk/pkg/jwtauth"
 	"github.com/gin-gonic/gin"
 	_ "github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
-	jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
 )
 
 var (

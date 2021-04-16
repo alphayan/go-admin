@@ -6,8 +6,8 @@ package sys_content
 //
 //	"go-admin/app/admin/models"
 //	"go-admin/tools"
-//	"github.com/go-admin-team/go-admin-core/sdk/pkg/response"
-//	"github.com/go-admin-team/go-admin-core/sdk/pkg/response/msg"
+//	"github.com/alphayan/go-admin-core/sdk/pkg/response"
+//	"github.com/alphayan/go-admin-core/sdk/pkg/response/msg"
 //)
 //
 //func GetSysContentList(c *gin.Context) {

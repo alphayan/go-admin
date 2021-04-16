@@ -3,8 +3,8 @@ package dto
 import (
 	"time"
 
+	"github.com/alphayan/go-admin-core/sdk/api"
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/api"
 
 	"go-admin/app/admin/models"
 	"go-admin/common/dto"
@@ -56,9 +56,9 @@ func (s *SysChinaAreaDataControl) Bind(ctx *gin.Context) error {
 func (s *SysChinaAreaDataControl) Generate() (*models.SysChinaAreaData, error) {
 	return &models.SysChinaAreaData{
 
-		Model:      common.Model{Id: s.Id},
-		PId:        s.PId,
-		Name:       s.Name,
+		Model: common.Model{Id: s.Id},
+		PId:   s.PId,
+		Name:  s.Name,
 	}, nil
 }
 

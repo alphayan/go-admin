@@ -3,9 +3,9 @@ package monitor
 import (
 	"runtime"
 
+	"github.com/alphayan/go-admin-core/sdk/pkg"
+	_ "github.com/alphayan/go-admin-core/sdk/pkg/response"
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	_ "github.com/go-admin-team/go-admin-core/sdk/pkg/response"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/mem"

@@ -2,8 +2,9 @@ package service
 
 import (
 	"errors"
-	log "github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
+
+	log "github.com/alphayan/go-admin-core/logger"
+	"github.com/alphayan/go-admin-core/sdk/pkg"
 
 	"gorm.io/gorm"
 

@@ -2,6 +2,7 @@ package models
 
 import (
 	"go-admin/common/models"
+
 	"gorm.io/gorm"
 )
 

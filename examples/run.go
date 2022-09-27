@@ -3,8 +3,9 @@
 package main
 
 import (
-	"github.com/go-admin-team/go-admin-core/sdk"
 	"log"
+
+	"github.com/go-admin-team/go-admin-core/sdk"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"

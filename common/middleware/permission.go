@@ -1,8 +1,9 @@
 package middleware
 
 import (
-	"github.com/casbin/casbin/v2/util"
 	"net/http"
+
+	"github.com/casbin/casbin/v2/util"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-admin-team/go-admin-core/sdk"

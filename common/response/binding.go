@@ -2,10 +2,11 @@ package response
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin/binding"
 	"reflect"
 	"strings"
 	"sync"
+
+	"github.com/gin-gonic/gin/binding"
 )
 
 const (

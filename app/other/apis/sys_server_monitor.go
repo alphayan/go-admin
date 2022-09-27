@@ -2,12 +2,13 @@ package apis
 
 import (
 	"fmt"
-	"github.com/shirou/gopsutil/v3/net"
 	"regexp"
 	"runtime"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/shirou/gopsutil/v3/net"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-admin-team/go-admin-core/sdk/api"

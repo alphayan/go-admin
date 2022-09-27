@@ -84,7 +84,6 @@ func (s *SysApiGetReq) GetId() interface{} {
 	return s.Id
 }
 
-
 // SysApiDeleteReq 功能删除请求参数
 type SysApiDeleteReq struct {
 	Ids []int `json:"ids"`
@@ -93,4 +92,3 @@ type SysApiDeleteReq struct {
 func (s *SysApiDeleteReq) GetId() interface{} {
 	return s.Ids
 }
-

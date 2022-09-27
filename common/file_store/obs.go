@@ -2,8 +2,9 @@ package file_store
 
 import (
 	"fmt"
-	"github.com/huaweicloud/huaweicloud-sdk-go-obs/obs"
 	"log"
+
+	"github.com/huaweicloud/huaweicloud-sdk-go-obs/obs"
 )
 
 type HuaWeiOBS struct {

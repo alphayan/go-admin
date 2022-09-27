@@ -1,8 +1,9 @@
 package dto
 
 import (
-	"github.com/gin-gonic/gin"
 	"go-admin/common/models"
+
+	"github.com/gin-gonic/gin"
 )
 
 type Index interface {

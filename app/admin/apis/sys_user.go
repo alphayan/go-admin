@@ -1,11 +1,12 @@
 package apis
 
 import (
+	"go-admin/app/admin/models"
+	"net/http"
+
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-admin-team/go-admin-core/sdk/config"
-	"go-admin/app/admin/models"
 	"golang.org/x/crypto/bcrypt"
-	"net/http"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-admin-team/go-admin-core/sdk/api"

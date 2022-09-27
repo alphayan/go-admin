@@ -3,10 +3,11 @@ package cmd
 import (
 	"errors"
 	"fmt"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
 	"go-admin/cmd/app"
 	"go-admin/common/global"
 	"os"
+
+	"github.com/go-admin-team/go-admin-core/sdk/pkg"
 
 	"github.com/spf13/cobra"
 

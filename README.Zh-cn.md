@@ -9,9 +9,9 @@
 
 [English](https://github.com/go-admin-team/go-admin/blob/master/README.md) | 简体中文
 
-基于Gin + Vue + Element UI的前后端分离权限管理系统,系统初始化极度简单，只需要配置文件中，修改数据库连接，系统支持多指令操作，迁移指令可以让初始化数据库信息变得更简单，服务指令可以很简单的启动api服务
+基于Gin + Vue + Element UI OR Arco Design OR Ant Design的前后端分离权限管理系统,系统初始化极度简单，只需要配置文件中，修改数据库连接，系统支持多指令操作，迁移指令可以让初始化数据库信息变得更简单，服务指令可以很简单的启动api服务
 
-[在线文档](https://doc.go-admin.dev)
+[在线文档](https://www.go-admin.pro)
 
 [前端项目](https://github.com/go-admin-team/go-admin-ui)
 
@@ -19,10 +19,13 @@
 
 ## 🎬 在线体验
 
-vue体验：[https://www.go-admin.dev](https://www.go-admin.dev/#/login)
+Element UI vue体验：[https://vue2.go-admin.dev](https://vue2.go-admin.dev/#/login)
 > ⚠️⚠️⚠️ 账号 / 密码： admin / 123456
 
-antd体验：[https://preview.go-admin.dev](https://preview.go-admin.dev/)
+Arco Design vue3 demo：[https://vue3.go-admin.dev](https://vue3.go-admin.dev/#/login)
+> ⚠️⚠️⚠️ 账号 / 密码： admin / 123456
+
+antd体验：[https://antd.go-admin.pro](https://antd.go-admin.pro/)
 > ⚠️⚠️⚠️ 账号 / 密码： admin / 123456
 
 ## ✨ 特性
@@ -142,6 +145,9 @@ git clone https://github.com/go-admin-team/go-admin-ui.git
 # 进入 go-admin 后端项目
 cd ./go-admin
 
+# 更新整理依赖
+go mod tidy
+
 # 编译项目
 go build
 
@@ -247,13 +253,15 @@ npm run dev
 <table>
    <tr>
     <td><img src="https://raw.githubusercontent.com/wenjianzhang/image/master/img/wx.png" width="180px"></td>
-    <td><img src="https://raw.githubusercontent.com/wenjianzhang/image/master/img/qq.png" width="200px"></td>
+    <td><img src="https://doc-image.zhangwj.com/img/qrcode_for_gh_b798dc7db30c_258.jpg" width="180px"></td>
     <td><img src="https://raw.githubusercontent.com/wenjianzhang/image/master/img/qq2.png" width="200px"></td>
+    <td><a href="https://space.bilibili.com/565616721">wenjianzhang</a></td>
   </tr>
   <tr>
     <td>微信</td>
-    <td><a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=I8ZMqsExqCHpyu8SL4rbya700rBBXYLO&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="go-admin技术交流甲号" title="go-admin技术交流甲号"></a></td>
+    <td>公众号🔥🔥🔥</td>
     <td><a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=0f2bf59f5f2edec6a4550c364242c0641f870aa328e468c4ee4b7dbfb392627b"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="go-admin技术交流乙号" title="go-admin技术交流乙号"></a></td>
+    <td>哔哩哔哩🔥🔥🔥</td>
   </tr>
 </table>
 
@@ -315,15 +323,17 @@ npm run dev
 
 1. [ant-design](https://github.com/ant-design/ant-design)
 2. [ant-design-pro](https://github.com/ant-design/ant-design-pro)
-2. [gin](https://github.com/gin-gonic/gin)
-2. [casbin](https://github.com/casbin/casbin)
-2. [spf13/viper](https://github.com/spf13/viper)
-2. [gorm](https://github.com/jinzhu/gorm)
-2. [gin-swagger](https://github.com/swaggo/gin-swagger)
-2. [jwt-go](https://github.com/dgrijalva/jwt-go)
-2. [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-2. [ruoyi-vue](https://gitee.com/y_project/RuoYi-Vue)
-2. [form-generator](https://github.com/JakHuang/form-generator)
+2. [arco-design](https://github.com/arco-design/arco-design)
+2. [arco-design-pro](https://github.com/arco-design/arco-design-pro)
+4. [gin](https://github.com/gin-gonic/gin)
+5. [casbin](https://github.com/casbin/casbin)
+6. [spf13/viper](https://github.com/spf13/viper)
+7. [gorm](https://github.com/jinzhu/gorm)
+8. [gin-swagger](https://github.com/swaggo/gin-swagger)
+9. [jwt-go](https://github.com/dgrijalva/jwt-go)
+10. [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+11. [ruoyi-vue](https://gitee.com/y_project/RuoYi-Vue)
+12. [form-generator](https://github.com/JakHuang/form-generator)
 
 
 ## 🤟 打赏
